@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VicPopescu/three-js-poc/issues"
   },
-  "homepage": "https://github.com/VicPopescu/three-js-poc#readme"
+  "homepage": "https://github.com/VicPopescu/three-js-poc#readme",
+  "dependencies": {
+    "three": "^0.127.0"
+  }
 }
