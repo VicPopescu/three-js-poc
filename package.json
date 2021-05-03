@@ -4,8 +4,10 @@
   "description": "Three.js playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel serve ./src/index.html --no-cache",
+    "build": "parcel build ./src/index.html"
   },
+  "browserslist": "> 0.2%",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VicPopescu/three-js-poc.git"
@@ -18,5 +20,12 @@
   "homepage": "https://github.com/VicPopescu/three-js-poc#readme",
   "dependencies": {
     "three": "^0.127.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@parcel/config-default": "*",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-reporter-static-files-copy": "^1.2.2"
   }
 }
