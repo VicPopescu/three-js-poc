@@ -4,8 +4,8 @@
   "description": "Three.js playground",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve ./src/index.html --no-cache",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel serve ./src/index.html ./src/static/**/* --no-cache",
+    "build": "parcel build ./src/index.html ./src/static/**/*"
   },
   "browserslist": "> 0.2%",
   "repository": {
@@ -24,8 +24,8 @@
   "type": "module",
   "devDependencies": {
     "@parcel/config-default": "*",
-    "parcel": "^2.0.0-beta.2",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "parcel-reporter-static-files-copy": "^1.2.2"
+    "@parcel/optimizer-data-url": "^2.0.0-beta.2",
+    "@parcel/transformer-inline-string": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
   }
 }
