@@ -6,7 +6,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 //
-// import binaryFile from "url:~/src/static/assets/jacket_with_5_materials/scene.bin";
+import binaryFile from "url:~/src/static/assets/jacket_with_5_materials/scene.bin";
 import jacketModel from "data-url:~/src/static/assets/jacket_with_5_materials/scene.gltf";
 
 

@@ -4,8 +4,8 @@
   "description": "Three.js playground",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve ./src/index.html ./src/static/**/* --no-cache",
-    "build": "parcel build ./src/index.html ./src/static/**/*"
+    "start": "parcel serve ./src/index.html --no-cache",
+    "build": "parcel build ./src/index.html"
   },
   "browserslist": "> 0.2%",
   "repository": {
